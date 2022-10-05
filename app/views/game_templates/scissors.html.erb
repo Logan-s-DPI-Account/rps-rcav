@@ -1,8 +1,8 @@
 
-<% index = rand(3) %>
 
-<% moves = ["rock", "paper", "scissors"%>
 
-<% comp_move = moves.at(index)%>
+<h2>We played scissors!</h2>
 
-<% if comp_move == "rock" %>
+<h2>They played <%= @comp_move %></h2>
+
+<h2>We <%= @outcome%>!</h2>
