@@ -3,7 +3,10 @@ class ApplicationController < ActionController::Base
 
   # Add your actions below this line
   # ================================
-  rules
+  #rules 
+def homepage
+  render({ :template => "game_templates/rules.html.erb"})
+end
 
 #Rock Logic
   def play_rock
